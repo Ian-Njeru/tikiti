@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+}
+.login-container{
+  border: 2px solid red;
+  position: center;
+  top:6em;
+  z-index:9;
+  width:auto;
+  /*margin-right:20%;
+  margin-left:20%;
+  background-color:#696969;*/
+  margin:0 20% 0 20%;
+  padding:20px;
+  align-items:center;
+}
+
+form{
+margin: 50px;
+}
+
+#signin{
+  text-align: center;
+  background-color: #c0c0c0;
+  color: white;
+  padding: 25px;
+  border-radius: 10px 10px 0 0;
+}
+
+.input{
+  /*padding: 20px;
+  border: 2px solid red;
+  background-color: #c0c0c0;*/
+  margin: 20px 0;
+}
+
+i{
+  padding: 15px;
+  border-right:2px solid blue;
+  width:10%;
+}
+input[type=text], input[type=password]{
+  padding: 15px;
+  border: none;
+  width: 90%;
+  /*background-color: inherit;*/
+}
+
+input[type=text]:focus, input[type=password]:focus{
+  outline: none;
+}
