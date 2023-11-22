@@ -5,32 +5,26 @@
 <html>
     <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
     <title>Login</title>
     </head>
 
     <body>
-        <div name="container">
-        <div name="container-header">
-            <p><i class="fa fa-lock"></i>&ensp;Sign-In</p>
-        </div>
+        <div class="login-container ">
+        <form method="post" action="" >
+            <p id="signin"><i class="fa fa-lock"></i>&ensp;Sign-In</p>
 
-        <div name="container-body">
-            <label for="identity">
-                <i class = "fa fa-user"></i>&ensp;Enter phone number or email<br>
-                <input type="text" name="identity" placeholder="Enter your email or phone number">
-            </label><br><br>
+            <!--<label for="identity">Enter phone number or email</label> //-->
+            <div class="input"><i class = "fa fa-user"></i><input type="text" name="identity" placeholder="Enter your email or phone number"></div>
+            <br>
 
-            <label for="password">
-                <i class="fa fa-key"></i>&ensp;Password<br>
-                <input type="password" name="password" placeholder="Password">
-            </label><br><br>
-        </div>
+            <!--<label for="password">Password</label>//-->
+                <div class="input"><i class="fa fa-key"></i><input type="password" name="password" placeholder="Password"></div>
+            <br>
 
-        <div name="container-footer">
-            <label for="sign-in">
-                <input type="submit" name="submit" Value="Sign-In">
-            </label>
-        </div>
+            <input type="submit" name="submit" Value="Sign-In">
+
+        <form>
         </div>
     </body>
 </html>
