@@ -1,4 +1,12 @@
 <?php
+    include_once ('database/dbconnection.php');
+    class login extends dbconnection{
+        public function __constuct(){
+            parent::__construct();
+        }
+    }
+
+    public function login()
 ?>
 
 <!DOCTYPE html>
